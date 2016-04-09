@@ -1,0 +1,450 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Sites</key>
+	<array>
+		<dict>
+			<key>Name</key>
+			<string>Internet Archive</string>
+			<key>Address</key>
+			<string>https://archive.org/details/oldtimeradio</string>
+			<key>Is Free</key>
+			<true/>
+			<key>Membership Required</key>
+			<false/>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Jezner</string>
+			<key>Address</key>
+			<string>http://www.jezner.com</string>
+			<key>Is Free</key>
+			<true/>
+			<key>Membership Required</key>
+			<false/>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Zoot Radio</string>
+			<key>Address</key>
+			<string>http://www.zootradio.com/</string>
+			<key>Is Free</key>
+			<true/>
+			<key>Membership Required</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>RUSC</string>
+			<key>Address</key>
+			<string>http://www.rusc.com/</string>
+			<key>Is Free</key>
+			<false/>
+			<key>Membership Required</key>
+			<true/>
+		</dict>
+	</array>
+	<key>Shows</key>
+	<array>
+		<dict>
+			<key>Id</key>
+			<integer>1</integer>
+			<key>Title</key>
+			<string>X Minus One</string>
+			<key>Thumbnail</key>
+			<string>xminus_one.jpg</string>
+			<key>Description</key>
+			<string>X Minus One aired on NBC from 24 April 55 until 9 January 58 for a total of 124 episodes with one pilot or audition story. There was a revival of the series in 1973 when radio was attempting to bring back radio drama and it lasted until 1975. The show occupied numerous time slots through out its run in the 50&apos;s and thus was never able to generate a large following.</string>
+		</dict>
+		<dict>
+			<key>Id</key>
+			<integer>2</integer>
+			<key>Title</key>
+			<string>Suspense</string>
+			<key>Thumbnail</key>
+			<string>OTRR_Certified_Suspense_thumb.jpg</string>
+			<key>Description</key>
+			<string>On September 30, 1962 a major milestone in radio drama came to an end with the final episode of the long running series, SUSPENSE. Ironically, the episode was titled &quot;Devil Stone&quot; and was the last dramatic radio play from a series that had its roots in the golden age of radio.
+
+What began as a &quot;new series frankly dedicated to your horrification and entertainment&quot; took on a life of its own mostly due to the talents of some outstanding producers and adaptations and original stories from the cream of mystery writers of the time. The golden age of radio was truly the golden age of SUSPENSE as show after show broadcast outstanding plays which were &quot;calculated to intrigue...stir [the] nerves.&quot;</string>
+		</dict>
+		<dict>
+			<key>Id</key>
+			<integer>3</integer>
+			<key>Title</key>
+			<string>Yours Truly Johnny Dollar</string>
+			<key>Thumbnail</key>
+			<string>johnny-dollar.png</string>
+			<key>Description</key>
+			<string>For over twelve years, from 1949 through 1962 (including a one year hiatus in 1954-1955), this series recounted the cases &quot;the man with the action-packed expense account, America’s fabulous freelance insurance investigator, Johnny Dollar&quot;. Johnny was an accomplished &apos;padder&apos; of his expense account. The name of the show derives from the fact that he closed each show by totaling his expense account, and signing it &quot;End of report... Yours Truly, Johnny Dollar&quot;.</string>
+		</dict>
+		<dict>
+			<key>Id</key>
+			<integer>4</integer>
+			<key>Title</key>
+			<string>Escape</string>
+			<key>Description</key>
+			<string>Escape brings together everything that was good about old-time radio drama rolled into one. The title itself almost sums up the very essence of what radio drama is all about. Each of the episodes was a micro drama carefully planned to capture the listeners attention for thirty minutes. Over two-hundred episodes were made and almost all of them are as good today as they were over half a century ago.</string>
+			<key>Thumbnail</key>
+			<string>OTRR_Certified_Escape.jpg</string>
+		</dict>
+		<dict>
+			<key>Id</key>
+			<integer>5</integer>
+			<key>Title</key>
+			<string>Dragnet</string>
+			<key>Description</key>
+			<string>Dragnet was a long running radio and television police procedural drama, about the cases of a dedicated Los Angeles police detective, Sergeant Joe Friday, and his partners. The show takes its name from an actual police term, a Dragnet, meaning a system of coordinated measures for apprehending criminals or suspects. Dragnet was perhaps the most famous and influential police procedural drama in American media history. The series gave millions of Americans a feel for the boredom and drudgery, as well as the danger and heroism, of real life police work. Dragnet earned praise for improving the public opinion of police officers.</string>
+			<key>Thumbnail</key>
+			<string>OTRR_Certified_Dragnet_thumb.jpg</string>
+		</dict>
+	</array>
+	<key>Episodes</key>
+	<array>
+		<dict>
+			<key>Show Id</key>
+			<integer>1</integer>
+			<key>Episode Id</key>
+			<integer>1</integer>
+			<key>Title</key>
+			<string>Zero Hour</string>
+			<key>Broadcast Date</key>
+			<date>1955-12-14T17:00:00Z</date>
+			<key>File Location</key>
+			<string>https://ia600301.us.archive.org/26/items/OTRR_X_Minus_One_Singles/XMinusOne55-11-23026ZeroHour.mp3</string>
+		</dict>
+		<dict>
+			<key>Show Id</key>
+			<integer>1</integer>
+			<key>Episode Id</key>
+			<integer>2</integer>
+			<key>Title</key>
+			<string>C-Chute</string>
+			<key>Broadcast Date</key>
+			<date>1956-02-08T17:00:00Z</date>
+			<key>File Location</key>
+			<string>https://ia600301.us.archive.org/26/items/OTRR_X_Minus_One_Singles/XMinusOne56-02-08037C-chute.mp3</string>
+		</dict>
+		<dict>
+			<key>Show Id</key>
+			<integer>1</integer>
+			<key>Episode Id</key>
+			<integer>3</integer>
+			<key>Title</key>
+			<string>Mars is Heaven</string>
+			<key>Broadcast Date</key>
+			<date>1955-05-08T17:00:00Z</date>
+			<key>File Location</key>
+			<string>https://ia600301.us.archive.org/26/items/OTRR_X_Minus_One_Singles/XMinusOne55-05-08003MarsIsHeaven.mp3</string>
+		</dict>
+		<dict>
+			<key>Show Id</key>
+			<integer>1</integer>
+			<key>Episode Id</key>
+			<integer>4</integer>
+			<key>Title</key>
+			<string>Shock Troop</string>
+			<key>Broadcast Date</key>
+			<date>1957-11-28T17:00:00Z</date>
+			<key>File Location</key>
+			<string>https://ia600301.us.archive.org/26/items/OTRR_X_Minus_One_Singles/XMinusOne57-11-28120ShockTroop.mp3</string>
+		</dict>
+		<dict>
+			<key>Show Id</key>
+			<integer>1</integer>
+			<key>Episode Id</key>
+			<integer>5</integer>
+			<key>Title</key>
+			<string>Tunnel Under the World</string>
+			<key>Broadcast Date</key>
+			<date>1956-03-14T17:00:00Z</date>
+			<key>File Location</key>
+			<string>https://ia700301.us.archive.org/26/items/OTRR_X_Minus_One_Singles/XMinusOne56-03-14042TunnelUnderTheWorld.mp3</string>
+		</dict>
+		<dict>
+			<key>Show Id</key>
+			<integer>2</integer>
+			<key>Episode Id</key>
+			<integer>6</integer>
+			<key>Title</key>
+			<string>On a Country Road</string>
+			<key>Broadcast Date</key>
+			<date>1959-05-10T17:00:00Z</date>
+			<key>File Location</key>
+			<string>https://ia600604.us.archive.org/13/items/OTRR_Suspense_Singles/Suspense_501116_403_On_a_Country_Road_-128-44-_28267_29m52s.mp3</string>
+		</dict>
+		<dict>
+			<key>Show Id</key>
+			<integer>2</integer>
+			<key>Episode Id</key>
+			<integer>7</integer>
+			<key>Title</key>
+			<string>Report from a Dead Planet</string>
+			<key>Broadcast Date</key>
+			<date>1960-07-10T17:00:00Z</date>
+			<key>File Location</key>
+			<string>https://ia700604.us.archive.org/13/items/OTRR_Suspense_Singles/Suspense_600710_861_Report_from_a_Dead_Planet_-130-44-_18688_19m32s.mp3</string>
+		</dict>
+		<dict>
+			<key>Show Id</key>
+			<integer>2</integer>
+			<key>Episode Id</key>
+			<integer>8</integer>
+			<key>Title</key>
+			<string>The House in Cypress Canyon</string>
+			<key>Broadcast Date</key>
+			<date>1946-12-05T17:00:00Z</date>
+			<key>File Location</key>
+			<string>https://ia600604.us.archive.org/13/items/OTRR_Suspense_Singles/Suspense_461205_222_The_House_in_Cypress_Canyon_-128-44-_28525_30m20s.mp3</string>
+		</dict>
+		<dict>
+			<key>Show Id</key>
+			<integer>2</integer>
+			<key>Episode Id</key>
+			<integer>9</integer>
+			<key>Title</key>
+			<string>Donovan&apos;s Brain</string>
+			<key>Broadcast Date</key>
+			<date>1948-02-07T17:00:00Z</date>
+			<key>File Location</key>
+			<string>https://ia600604.us.archive.org/13/items/OTRR_Suspense_Singles/Suspense_480207_283_Donovans_Brain_-48-22-_21206_1h00m04s.mp3</string>
+		</dict>
+		<dict>
+			<key>Show Id</key>
+			<integer>2</integer>
+			<key>Episode Id</key>
+			<integer>10</integer>
+			<key>Title</key>
+			<string>Ghost Hunt</string>
+			<key>Broadcast Date</key>
+			<date>1949-06-23T17:00:00Z</date>
+			<key>File Location</key>
+			<string>https://ia600604.us.archive.org/13/items/OTRR_Suspense_Singles/Suspense_490623_346_Ghost_Hunt_-128-44-_27968_29m44s.mp3</string>
+		</dict>
+		<dict>
+			<key>Show Id</key>
+			<integer>3</integer>
+			<key>Episode Id</key>
+			<integer>11</integer>
+			<key>Title</key>
+			<string>The Todd Matter - Episode 1</string>
+			<key>Broadcast Date</key>
+			<date>1956-01-09T17:00:00Z</date>
+			<key>File Location</key>
+			<string>https://ia600301.us.archive.org/20/items/OTRR_YoursTrulyJohnnyDollar_Singles/560109_303_The_Todd_Matter_Episode_1.mp3</string>
+		</dict>
+		<dict>
+			<key>Show Id</key>
+			<integer>3</integer>
+			<key>Episode Id</key>
+			<integer>12</integer>
+			<key>Title</key>
+			<string>The Todd Matter - Episode 2</string>
+			<key>Broadcast Date</key>
+			<date>1956-01-10T17:00:00Z</date>
+			<key>File Location</key>
+			<string>https://ia600301.us.archive.org/20/items/OTRR_YoursTrulyJohnnyDollar_Singles/560110_304_The_Todd_Matter_Episode_2.mp3</string>
+		</dict>
+		<dict>
+			<key>Show Id</key>
+			<integer>3</integer>
+			<key>Episode Id</key>
+			<integer>13</integer>
+			<key>Title</key>
+			<string>The Todd Matter - Episode 3</string>
+			<key>Broadcast Date</key>
+			<date>1956-01-11T17:00:00Z</date>
+			<key>File Location</key>
+			<string>https://ia600301.us.archive.org/20/items/OTRR_YoursTrulyJohnnyDollar_Singles/560111_305_The_Todd_Matter_Episode_3.mp3</string>
+		</dict>
+		<dict>
+			<key>Show Id</key>
+			<integer>3</integer>
+			<key>Episode Id</key>
+			<integer>14</integer>
+			<key>Title</key>
+			<string>The Todd Matter - Episode 4</string>
+			<key>Broadcast Date</key>
+			<date>1956-01-12T17:00:00Z</date>
+			<key>File Location</key>
+			<string>https://ia600301.us.archive.org/20/items/OTRR_YoursTrulyJohnnyDollar_Singles/560112_306_The_Todd_Matter_Episode_4.mp3</string>
+		</dict>
+		<dict>
+			<key>Show Id</key>
+			<integer>3</integer>
+			<key>Episode Id</key>
+			<integer>15</integer>
+			<key>Title</key>
+			<string>The Todd Matter - Episode 5</string>
+			<key>Broadcast Date</key>
+			<date>1956-01-13T17:00:00Z</date>
+			<key>File Location</key>
+			<string>https://ia700301.us.archive.org/20/items/OTRR_YoursTrulyJohnnyDollar_Singles/560113_307_The_Todd_Matter_Episode_5.mp3</string>
+		</dict>
+		<dict>
+			<key>Show Id</key>
+			<integer>4</integer>
+			<key>Episode Id</key>
+			<integer>16</integer>
+			<key>Title</key>
+			<string>The Most Dangerous Game</string>
+			<key>Broadcast Date</key>
+			<date>1947-10-01T17:00:00Z</date>
+			<key>File Location</key>
+			<string>https://ia600808.us.archive.org/25/items/OTRR_Escape_Singles/Escape_47-10-01_-008-_The_Most_Dangerous_Game.mp3</string>
+		</dict>
+		<dict>
+			<key>Show Id</key>
+			<integer>4</integer>
+			<key>Episode Id</key>
+			<integer>17</integer>
+			<key>Title</key>
+			<string>Leiningen vs the Ants</string>
+			<key>Broadcast Date</key>
+			<date>1948-01-14T17:00:00Z</date>
+			<key>File Location</key>
+			<string>https://ia600808.us.archive.org/25/items/OTRR_Escape_Singles/Escape_48-01-14_-023-_Leiningen_vs_the_Ants_-national_broadcast-.mp3</string>
+		</dict>
+		<dict>
+			<key>Show Id</key>
+			<integer>4</integer>
+			<key>Episode Id</key>
+			<integer>18</integer>
+			<key>Title</key>
+			<string>Casting the Runes</string>
+			<key>Broadcast Date</key>
+			<date>1947-11-19T17:00:00Z</date>
+			<key>File Location</key>
+			<string>https://ia600808.us.archive.org/25/items/OTRR_Escape_Singles/Escape_48-01-14_-023-_Leiningen_vs_the_Ants_-national_broadcast-.mp3</string>
+		</dict>
+		<dict>
+			<key>Show Id</key>
+			<integer>4</integer>
+			<key>Episode Id</key>
+			<integer>19</integer>
+			<key>Title</key>
+			<string>Three Skeleton Key</string>
+			<key>Broadcast Date</key>
+			<date>1949-11-15T17:00:00Z</date>
+			<key>File Location</key>
+			<string>https://ia600808.us.archive.org/25/items/OTRR_Escape_Singles/Escape_49-11-15_-085-_Three_Skeleton_Key_-William_Conrad-_-1-.mp3</string>
+		</dict>
+		<dict>
+			<key>Show Id</key>
+			<integer>4</integer>
+			<key>Episode Id</key>
+			<integer>20</integer>
+			<key>Title</key>
+			<string>Blood Bath</string>
+			<key>Broadcast Date</key>
+			<date>1950-06-30T17:00:00Z</date>
+			<key>File Location</key>
+			<string>https://ia700808.us.archive.org/25/items/OTRR_Escape_Singles/Escape_50-06-30_-117-_Blood_Bath.mp3</string>
+		</dict>
+		<dict>
+			<key>Show Id</key>
+			<integer>5</integer>
+			<key>Episode Id</key>
+			<integer>21</integer>
+			<key>Title</key>
+			<string>The Big Grifter</string>
+			<key>Broadcast Date</key>
+			<date>1953-01-25T17:00:00Z</date>
+			<key>File Location</key>
+			<string>https://ia600304.us.archive.org/23/items/Dragnet_OTR/Dragnet_50-02-23_ep037_Big_Grifter.mp3</string>
+		</dict>
+		<dict>
+			<key>Show Id</key>
+			<integer>5</integer>
+			<key>Episode Id</key>
+			<integer>22</integer>
+			<key>Title</key>
+			<string>The Big Tomato</string>
+			<key>Broadcast Date</key>
+			<date>1951-01-25T17:00:00Z</date>
+			<key>File Location</key>
+			<string>https://ia600304.us.archive.org/23/items/Dragnet_OTR/Dragnet_51-01-25_ep085_Big_Tomato.mp3</string>
+		</dict>
+		<dict>
+			<key>Show Id</key>
+			<integer>5</integer>
+			<key>Episode Id</key>
+			<integer>23</integer>
+			<key>Title</key>
+			<string>The Big Quack</string>
+			<key>Broadcast Date</key>
+			<date>1947-11-19T17:00:00Z</date>
+			<key>File Location</key>
+			<string>https://ia600304.us.archive.org/23/items/Dragnet_OTR/Dragnet_50-10-12_ep070_Big_Quack.mp3</string>
+		</dict>
+		<dict>
+			<key>Show Id</key>
+			<integer>5</integer>
+			<key>Episode Id</key>
+			<integer>24</integer>
+			<key>Title</key>
+			<string>The Big Hit and Run</string>
+			<key>Broadcast Date</key>
+			<date>1951-11-08T17:00:00Z</date>
+			<key>File Location</key>
+			<string>https://ia700304.us.archive.org/23/items/Dragnet_OTR/Dragnet_51-11-08_ep126_Big_Hit_and_Run_Killer.mp3</string>
+		</dict>
+		<dict>
+			<key>Show Id</key>
+			<integer>5</integer>
+			<key>Episode Id</key>
+			<integer>25</integer>
+			<key>Title</key>
+			<string>The Big Little Mother</string>
+			<key>Broadcast Date</key>
+			<date>1953-10-06T17:00:00Z</date>
+			<key>File Location</key>
+			<string>https://ia600304.us.archive.org/23/items/Dragnet_OTR/Dragnet_53-10-06_ep216_Big_Little_Mother.mp3</string>
+		</dict>
+	</array>
+	<key>Favorites</key>
+	<array>
+		<dict>
+			<key>Episode Id</key>
+			<integer>8</integer>
+			<key>Note</key>
+			<string>A new couple moves in to a very creepy house ... what&apos;s not to like?</string>
+			<key>Favorite Date</key>
+			<date>2014-05-29T13:44:26Z</date>
+		</dict>
+		<dict>
+			<key>Episode Id</key>
+			<integer>19</integer>
+			<key>Note</key>
+			<string>Rats ... lots and lots of rats. Not for the squemish.</string>
+			<key>Favorite Date</key>
+			<date>2014-05-29T13:44:36Z</date>
+		</dict>
+		<dict>
+			<key>Episode Id</key>
+			<integer>18</integer>
+			<key>Note</key>
+			<string>A curse almost drives a mild mannered proferssor insane. There&apos;s nothing better than a little revenge.</string>
+			<key>Favorite Date</key>
+			<date>2014-05-29T13:44:47Z</date>
+		</dict>
+		<dict>
+			<key>Episode Id</key>
+			<integer>1</integer>
+			<key>Note</key>
+			<string>Invaders arrive from Mars. Not from space, by through our own children.</string>
+			<key>Favorite Date</key>
+			<date>2014-05-29T13:44:56Z</date>
+		</dict>
+		<dict>
+			<key>Episode Id</key>
+			<integer>21</integer>
+			<key>Note</key>
+			<string>A con man tries to give Friday the big slip, but gets caught in his own net.</string>
+			<key>Favorite Date</key>
+			<date>2014-05-29T13:45:04Z</date>
+		</dict>
+	</array>
+</dict>
+</plist>

@@ -1,0 +1,335 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D3B844DC1C0A02FF00C4C4AD /* EpisodesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3B844D91C0A02FF00C4C4AD /* EpisodesTableViewController.swift */; };
+		D3B844DD1C0A02FF00C4C4AD /* ShowsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3B844DA1C0A02FF00C4C4AD /* ShowsTableViewController.swift */; };
+		D3B844DE1C0A02FF00C4C4AD /* SitesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3B844DB1C0A02FF00C4C4AD /* SitesTableViewController.swift */; };
+		D3B844E01C0A051C00C4C4AD /* FavoritesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3B844DF1C0A051C00C4C4AD /* FavoritesTableViewController.swift */; };
+		D3CE38941C0953C700FF5725 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3CE38931C0953C700FF5725 /* AppDelegate.swift */; };
+		D3CE38961C0953C700FF5725 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3CE38951C0953C700FF5725 /* ViewController.swift */; };
+		D3CE38991C0953C700FF5725 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3CE38971C0953C700FF5725 /* Main.storyboard */; };
+		D3CE389B1C0953C700FF5725 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3CE389A1C0953C700FF5725 /* Assets.xcassets */; };
+		D3CE389E1C0953C700FF5725 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3CE389C1C0953C700FF5725 /* LaunchScreen.storyboard */; };
+		D3CE38A61C0953DD00FF5725 /* OTRShow.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3CE38A51C0953DD00FF5725 /* OTRShow.swift */; };
+		D3CE38A81C09541900FF5725 /* OTREpisode.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3CE38A71C09541900FF5725 /* OTREpisode.swift */; };
+		D3CE38AA1C09546100FF5725 /* OTRFavorite.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3CE38A91C09546100FF5725 /* OTRFavorite.swift */; };
+		D3CE38AC1C09577300FF5725 /* OTRSite.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3CE38AB1C09577300FF5725 /* OTRSite.swift */; };
+		D3CE38AE1C095A1E00FF5725 /* old_time_radio.plist in Resources */ = {isa = PBXBuildFile; fileRef = D3CE38AD1C095A1E00FF5725 /* old_time_radio.plist */; };
+		D3CE38B01C09ED0500FF5725 /* OTRLibraryManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3CE38AF1C09ED0500FF5725 /* OTRLibraryManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D3B844D91C0A02FF00C4C4AD /* EpisodesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EpisodesTableViewController.swift; sourceTree = "<group>"; };
+		D3B844DA1C0A02FF00C4C4AD /* ShowsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShowsTableViewController.swift; sourceTree = "<group>"; };
+		D3B844DB1C0A02FF00C4C4AD /* SitesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SitesTableViewController.swift; sourceTree = "<group>"; };
+		D3B844DF1C0A051C00C4C4AD /* FavoritesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoritesTableViewController.swift; sourceTree = "<group>"; };
+		D3CE38901C0953C700FF5725 /* OldTimeRadio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OldTimeRadio.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3CE38931C0953C700FF5725 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D3CE38951C0953C700FF5725 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D3CE38981C0953C700FF5725 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D3CE389A1C0953C700FF5725 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D3CE389D1C0953C700FF5725 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D3CE389F1C0953C700FF5725 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3CE38A51C0953DD00FF5725 /* OTRShow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OTRShow.swift; sourceTree = "<group>"; };
+		D3CE38A71C09541900FF5725 /* OTREpisode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OTREpisode.swift; sourceTree = "<group>"; };
+		D3CE38A91C09546100FF5725 /* OTRFavorite.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OTRFavorite.swift; sourceTree = "<group>"; };
+		D3CE38AB1C09577300FF5725 /* OTRSite.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OTRSite.swift; sourceTree = "<group>"; };
+		D3CE38AD1C095A1E00FF5725 /* old_time_radio.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = old_time_radio.plist; sourceTree = "<group>"; };
+		D3CE38AF1C09ED0500FF5725 /* OTRLibraryManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OTRLibraryManager.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D3CE388D1C0953C700FF5725 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D3CE38871C0953C700FF5725 = {
+			isa = PBXGroup;
+			children = (
+				D3CE38921C0953C700FF5725 /* OldTimeRadio */,
+				D3CE38911C0953C700FF5725 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D3CE38911C0953C700FF5725 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D3CE38901C0953C700FF5725 /* OldTimeRadio.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D3CE38921C0953C700FF5725 /* OldTimeRadio */ = {
+			isa = PBXGroup;
+			children = (
+				D3CE38931C0953C700FF5725 /* AppDelegate.swift */,
+				D3CE38951C0953C700FF5725 /* ViewController.swift */,
+				D3CE38971C0953C700FF5725 /* Main.storyboard */,
+				D3CE389A1C0953C700FF5725 /* Assets.xcassets */,
+				D3CE389C1C0953C700FF5725 /* LaunchScreen.storyboard */,
+				D3CE389F1C0953C700FF5725 /* Info.plist */,
+				D3B844D91C0A02FF00C4C4AD /* EpisodesTableViewController.swift */,
+				D3B844DF1C0A051C00C4C4AD /* FavoritesTableViewController.swift */,
+				D3B844DA1C0A02FF00C4C4AD /* ShowsTableViewController.swift */,
+				D3B844DB1C0A02FF00C4C4AD /* SitesTableViewController.swift */,
+				D3CE38A51C0953DD00FF5725 /* OTRShow.swift */,
+				D3CE38AB1C09577300FF5725 /* OTRSite.swift */,
+				D3CE38A71C09541900FF5725 /* OTREpisode.swift */,
+				D3CE38A91C09546100FF5725 /* OTRFavorite.swift */,
+				D3CE38AF1C09ED0500FF5725 /* OTRLibraryManager.swift */,
+				D3CE38AD1C095A1E00FF5725 /* old_time_radio.plist */,
+			);
+			path = OldTimeRadio;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D3CE388F1C0953C700FF5725 /* OldTimeRadio */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3CE38A21C0953C700FF5725 /* Build configuration list for PBXNativeTarget "OldTimeRadio" */;
+			buildPhases = (
+				D3CE388C1C0953C700FF5725 /* Sources */,
+				D3CE388D1C0953C700FF5725 /* Frameworks */,
+				D3CE388E1C0953C700FF5725 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OldTimeRadio;
+			productName = OldTimeRadio;
+			productReference = D3CE38901C0953C700FF5725 /* OldTimeRadio.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D3CE38881C0953C700FF5725 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Razeware LLC";
+				TargetAttributes = {
+					D3CE388F1C0953C700FF5725 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+				};
+			};
+			buildConfigurationList = D3CE388B1C0953C700FF5725 /* Build configuration list for PBXProject "OldTimeRadio" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D3CE38871C0953C700FF5725;
+			productRefGroup = D3CE38911C0953C700FF5725 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D3CE388F1C0953C700FF5725 /* OldTimeRadio */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D3CE388E1C0953C700FF5725 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3CE389E1C0953C700FF5725 /* LaunchScreen.storyboard in Resources */,
+				D3CE38AE1C095A1E00FF5725 /* old_time_radio.plist in Resources */,
+				D3CE389B1C0953C700FF5725 /* Assets.xcassets in Resources */,
+				D3CE38991C0953C700FF5725 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D3CE388C1C0953C700FF5725 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3CE38B01C09ED0500FF5725 /* OTRLibraryManager.swift in Sources */,
+				D3CE38A61C0953DD00FF5725 /* OTRShow.swift in Sources */,
+				D3CE38AA1C09546100FF5725 /* OTRFavorite.swift in Sources */,
+				D3CE38A81C09541900FF5725 /* OTREpisode.swift in Sources */,
+				D3CE38961C0953C700FF5725 /* ViewController.swift in Sources */,
+				D3B844E01C0A051C00C4C4AD /* FavoritesTableViewController.swift in Sources */,
+				D3B844DC1C0A02FF00C4C4AD /* EpisodesTableViewController.swift in Sources */,
+				D3B844DE1C0A02FF00C4C4AD /* SitesTableViewController.swift in Sources */,
+				D3B844DD1C0A02FF00C4C4AD /* ShowsTableViewController.swift in Sources */,
+				D3CE38AC1C09577300FF5725 /* OTRSite.swift in Sources */,
+				D3CE38941C0953C700FF5725 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D3CE38971C0953C700FF5725 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D3CE38981C0953C700FF5725 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D3CE389C1C0953C700FF5725 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D3CE389D1C0953C700FF5725 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D3CE38A01C0953C700FF5725 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D3CE38A11C0953C700FF5725 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D3CE38A31C0953C700FF5725 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = OldTimeRadio/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.razeware.OldTimeRadio;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D3CE38A41C0953C700FF5725 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = OldTimeRadio/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.razeware.OldTimeRadio;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D3CE388B1C0953C700FF5725 /* Build configuration list for PBXProject "OldTimeRadio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3CE38A01C0953C700FF5725 /* Debug */,
+				D3CE38A11C0953C700FF5725 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3CE38A21C0953C700FF5725 /* Build configuration list for PBXNativeTarget "OldTimeRadio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3CE38A31C0953C700FF5725 /* Debug */,
+				D3CE38A41C0953C700FF5725 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D3CE38881C0953C700FF5725 /* Project object */;
+}

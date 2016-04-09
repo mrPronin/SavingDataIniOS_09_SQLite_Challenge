@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9059" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="wIB-Nb-B3q">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+    </dependencies>
+    <scenes>
+        <!--Sites-->
+        <scene sceneID="TtY-pK-uTg">
+            <objects>
+                <tableViewController id="15E-w1-dk3" customClass="SitesTableViewController" customModule="OldTimeRadio" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="Vxj-bU-8Iu">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="SitesCell" id="VV7-cy-gdf">
+                                <rect key="frame" x="0.0" y="28" width="600" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="VV7-cy-gdf" id="FYO-yh-hvB">
+                                    <rect key="frame" x="0.0" y="0.0" width="600" height="43"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="15E-w1-dk3" id="0R2-RY-VrX"/>
+                            <outlet property="delegate" destination="15E-w1-dk3" id="Ld4-s5-yBD"/>
+                        </connections>
+                    </tableView>
+                    <tabBarItem key="tabBarItem" title="Sites" id="Y6E-eU-4Hw"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="o68-Bx-Ley" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-753" y="1361"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="1XF-lJ-oc6">
+            <objects>
+                <tabBarController id="wIB-Nb-B3q" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="CLh-Fk-cqe">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="fde-T9-ENf" kind="relationship" relationship="viewControllers" id="eqV-z3-dPj"/>
+                        <segue destination="ZDv-dD-QFC" kind="relationship" relationship="viewControllers" id="lpK-wn-0FB"/>
+                        <segue destination="KVc-Kr-Nmh" kind="relationship" relationship="viewControllers" id="Rdv-Rq-tjz"/>
+                        <segue destination="15E-w1-dk3" kind="relationship" relationship="viewControllers" id="dci-7P-U5t"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="m4L-Tw-SIB" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-82" y="446"/>
+        </scene>
+        <!--Shows-->
+        <scene sceneID="P1f-0P-zoV">
+            <objects>
+                <tableViewController id="ZDv-dD-QFC" customClass="ShowsTableViewController" customModule="OldTimeRadio" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="pP4-mW-zV4">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="ShowCell" id="KQY-ux-72h">
+                                <rect key="frame" x="0.0" y="28" width="600" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KQY-ux-72h" id="0Vi-jT-A22">
+                                    <rect key="frame" x="0.0" y="0.0" width="600" height="43"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="ZDv-dD-QFC" id="thc-6P-Qvd"/>
+                            <outlet property="delegate" destination="ZDv-dD-QFC" id="trr-8n-T6X"/>
+                        </connections>
+                    </tableView>
+                    <tabBarItem key="tabBarItem" title="Shows" id="Gak-Oz-trQ"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HGG-bB-GSW" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="485" y="1529"/>
+        </scene>
+        <!--Episodes-->
+        <scene sceneID="otx-Fw-Zhg">
+            <objects>
+                <tableViewController id="fde-T9-ENf" customClass="EpisodesTableViewController" customModule="OldTimeRadio" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="Rub-JI-a1x">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="EpisodeCell" id="gpp-nL-d6c">
+                                <rect key="frame" x="0.0" y="28" width="600" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="gpp-nL-d6c" id="p0l-BJ-blT">
+                                    <rect key="frame" x="0.0" y="0.0" width="600" height="43"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="fde-T9-ENf" id="fU6-NS-lOb"/>
+                            <outlet property="delegate" destination="fde-T9-ENf" id="Si7-it-Wis"/>
+                        </connections>
+                    </tableView>
+                    <tabBarItem key="tabBarItem" title="Episodes" id="ytb-Ah-99X"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Acz-RV-4Mb" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="737" y="77"/>
+        </scene>
+        <!--Favorites-->
+        <scene sceneID="YAR-Lt-VgK">
+            <objects>
+                <tableViewController id="KVc-Kr-Nmh" customClass="FavoritesTableViewController" customModule="OldTimeRadio" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="XeB-9Q-I34">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="FavoriteCell" id="Mpp-Ju-Jyh">
+                                <rect key="frame" x="0.0" y="28" width="600" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Mpp-Ju-Jyh" id="39M-5E-9ug">
+                                    <rect key="frame" x="0.0" y="0.0" width="600" height="43"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="KVc-Kr-Nmh" id="rTu-GM-DzA"/>
+                            <outlet property="delegate" destination="KVc-Kr-Nmh" id="8xL-nv-lTX"/>
+                        </connections>
+                    </tableView>
+                    <tabBarItem key="tabBarItem" title="Favorites" id="fJz-tL-CEs"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="JIB-Z2-5K2" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="963" y="801"/>
+        </scene>
+    </scenes>
+</document>
