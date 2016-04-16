@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A2C47EE91CC2665900E1E18D /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = A2C47EE81CC2665900E1E18D /* libsqlite3.tbd */; };
 		D3B844DC1C0A02FF00C4C4AD /* EpisodesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3B844D91C0A02FF00C4C4AD /* EpisodesTableViewController.swift */; };
 		D3B844DD1C0A02FF00C4C4AD /* ShowsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3B844DA1C0A02FF00C4C4AD /* ShowsTableViewController.swift */; };
 		D3B844DE1C0A02FF00C4C4AD /* SitesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3B844DB1C0A02FF00C4C4AD /* SitesTableViewController.swift */; };
@@ -25,6 +26,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A2C47EE81CC2665900E1E18D /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		A2C47EEA1CC266C800E1E18D /* OldTimeRadio-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OldTimeRadio-Bridging-Header.h"; sourceTree = SOURCE_ROOT; };
 		D3B844D91C0A02FF00C4C4AD /* EpisodesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EpisodesTableViewController.swift; sourceTree = "<group>"; };
 		D3B844DA1C0A02FF00C4C4AD /* ShowsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShowsTableViewController.swift; sourceTree = "<group>"; };
 		D3B844DB1C0A02FF00C4C4AD /* SitesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SitesTableViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +52,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A2C47EE91CC2665900E1E18D /* libsqlite3.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,6 +94,8 @@
 				D3CE38A91C09546100FF5725 /* OTRFavorite.swift */,
 				D3CE38AF1C09ED0500FF5725 /* OTRLibraryManager.swift */,
 				D3CE38AD1C095A1E00FF5725 /* old_time_radio.plist */,
+				A2C47EEA1CC266C800E1E18D /* OldTimeRadio-Bridging-Header.h */,
+				A2C47EE81CC2665900E1E18D /* libsqlite3.tbd */,
 			);
 			path = OldTimeRadio;
 			sourceTree = "<group>";
@@ -120,7 +126,7 @@
 		D3CE38881C0953C700FF5725 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0710;
+				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0710;
 				ORGANIZATIONNAME = "Razeware LLC";
 				TargetAttributes = {
@@ -292,6 +298,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.razeware.OldTimeRadio;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "OldTimeRadio-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
@@ -305,6 +312,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.razeware.OldTimeRadio;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "OldTimeRadio-Bridging-Header.h";
 			};
 			name = Release;
 		};

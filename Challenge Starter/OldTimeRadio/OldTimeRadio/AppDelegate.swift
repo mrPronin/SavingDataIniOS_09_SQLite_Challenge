@@ -18,8 +18,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     // Override point for customization after application launch.
     
     let otrLibrary = OTRLibraryManager.sharedInstance
-    otrLibrary.loadFromPlist()
-    
+//    otrLibrary.loadFromPlist()
+    otrLibrary.buildLibraryFromPlist()
+    otrLibrary.initializeLibrary()
     return true
   }
 
